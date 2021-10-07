@@ -1,0 +1,38 @@
+public class Student
+{
+    //String sname;
+    //int srollno;
+    //int sage;
+    //String sloc;
+    //long smobileno;
+    //String sbranch;
+    int count;
+    void display(String s,int r,String l,int a,long m,String b)
+    {
+        System.out.println("Student "+count+" details are");
+        count++;
+        //sname=s;
+        //srollno=r;
+        //sage=a;
+        //sloc=l;
+        //smobileno=m;
+        //sbranch=b;
+        System.out.println("Sname="+s);
+        System.out.println("Srollno="+r);
+        System.out.println("Slocation="+l);
+        System.out.println("Sage="+a);
+        System.out.println("Sphoneno="+m);
+        System.out.println("Sbranch="+b);
+    }
+    
+    public static void main(String args[])
+    {
+        Student ob=new Student();
+        ob.count=1;
+        ob.display("Gandhiji",19,"Bengaluru",19,9291908676L,"CSE");
+        ob.display("Nehru",18,"Mysore",20,9000566789L,"ECE");
+        ob.display("Azhad",15,"Mandya",21,9909123909L,"EEE");
+        
+    }
+    
+}

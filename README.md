@@ -1,4 +1,4 @@
-# JAVA-BEGINEER PROGRAMS
+# JAVA-BEGINNER PROGRAMS
   * Strings
   
   * Arrays
